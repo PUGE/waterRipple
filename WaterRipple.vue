@@ -24,7 +24,7 @@
         ripple.style.top = top + 'px'
         ripple.style.left = left + 'px'
         ripple.classList.add('show')
-        return false
+        this.$emit('onClick')
       }
     }
   }
@@ -34,14 +34,9 @@
   .water-ripple {
     position: relative;
     display: block;
-    width: 13em;
-    height: 3em;
-    margin: 2em;
     border: none;
     outline: none;
     letter-spacing: .2em;
-    font-weight: bold;
-    background: #dfdfdf;
     cursor: pointer;
     overflow: hidden;
     user-select: none;
