@@ -1,5 +1,6 @@
 <template lang="pug">
-  .water-ripple(@click.stop="rippleClick") {{text}}
+  .water-ripple(@click.stop="rippleClick")
+    span {{text}}
 </template>
 
 <script>
