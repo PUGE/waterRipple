@@ -1,6 +1,6 @@
 {
   "name": "waterripple",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "水波纹组件",
   "author": "PUGE <my@owo.help>",
   "main": "./index.js",

@@ -32,7 +32,7 @@
   }
 </script>
 
-<style lang='less'>
+<style>
   .water-ripple {
     position: relative;
     display: block;
