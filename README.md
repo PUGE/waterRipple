@@ -17,7 +17,7 @@ yarn add waterripple
       WaterRipple
     },
     methods: {
-      login (password) {
+      login () {
         console.log('点击了！')
       }
     }
